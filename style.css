@@ -46,8 +46,6 @@ nav,.roundContainer{
   width:30%;
   height: 0;
   padding: 30%;
-  
-
 }
 
 body main {
@@ -63,16 +61,13 @@ body main {
 body main article{
 
     margin-left: 8%;
-    margin-right: 8%;
-    
+    margin-right: 8%;  
   }
 
 section{
   padding-left: 10px;
   padding-right: 10px;
   align-items: center center;
-
-
 }
 
 /* box aesthetics mods -------------------------------------------*/
@@ -102,7 +97,7 @@ section {
   background-size:contain;
 }
 
-
+                                /*animate*/
 .colorFlash:hover {
   background-color:#00e5e8;
   transition: .5s;

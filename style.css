@@ -103,6 +103,16 @@ section {
 }
 
 
+.colorFlash:hover {
+  background-color:#00e5e8;
+  transition: .5s;
+}
+
+.rotate:hover{
+  transform:rotateZ(360deg);
+}
+
+
 /* specific text mods */
 body{
   text-align: center;
@@ -150,4 +160,8 @@ article{
 
 .pinkText{
   color:#ff0195e1;
+}
+
+.click:active{
+  color:#090764;
 }

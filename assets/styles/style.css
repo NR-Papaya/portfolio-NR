@@ -1,0 +1,187 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+.kalamfont{
+    font-family: 'Kalam', cursive;
+    }
+  
+.srirachafont{
+    font-family: 'Sriracha', cursive;
+    }
+  
+.montfont{
+    font-family: 'Montserrat Alternates',sans-serif;
+    }
+  
+.bold{
+    font-weight:bold;
+    }
+    
+.quote{
+    font-family: 'Kalam', cursive;
+    max-width: 600px;
+    }
+
+.text-linespace{
+    line-height: 18pt;
+    }    
+
+/* global init------------------------------------------------------------- */
+*{
+    box-sizing: border-box;
+    }
+
+/*body mods-------------------------------------------------*/
+body {
+    background-color: #0b0033;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size:contain;
+    }
+
+/*body div--------------*/
+.body-div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    }
+/* header mods----------------------------------------------------*/
+.header-control{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    }
+
+.header-img{
+    width:300px;
+    padding:40px;
+    }
+/* header div mods---------------*/
+.header-div{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    /* ----------- */
+    font-family:'Montserrat Alternates',sans-serif;
+    font-weight: bold;
+    }
+
+header div h1{
+    margin:5px;
+    color:#ff0195e1;
+    font-size:50px;
+    }
+
+header div h2{
+    margin:5px;
+    color:#3ABEFF;
+    font-size:40px;
+    }  
+      
+header div h3{
+    margin:5px;    
+    color:#820933;
+    font-size:30px;
+    }
+
+/* header nav mods------------------*/
+.header-nav{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:flex-start;
+    margin-top:30pt;
+    }  
+
+.header-nav-div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    /*-------*/
+    margin: 10px;
+    width:30%;
+    height: 0;
+    padding: 30%;
+    /* ------ */
+    background-color: #f0f600;
+    border-color: #000000;
+    border:black solid;
+    border-radius: 100%;
+    }
+
+nav>div>a,.header-links{
+    font-family:'Franklin Gothic Medium';
+    color:#d84797;
+    font-weight:bold;
+    font-size: 12pt;
+    }
+
+/* main mods */
+
+.main {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;  
+    /* ---------- */
+    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10px;
+    padding-bottom:10px;
+    max-width:800px;
+    min-width:600px;
+    /* ---------- */
+    background-color: #00e5e8;
+  }
+
+    /* article mods */
+.article{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+
+
+        /* section mods */
+.section{
+    margin:2px;
+    padding:7px;
+    align-items: center;
+    /* -------------- */
+    background-color: rgba(255, 255, 255, 0.76);
+    
+    /* --------------- */
+    color: #090764;
+    font-weight: 400;
+    }
+
+section p {
+    font-size: larger;
+    }
+section h3{
+    font-size:x-large;
+    color:#d84797;
+    }
+
+
+/* footer mods not needed in this build */
+
+/* animate------------------------------------------- */
+
+.color-rotate:hover {
+    background-color:#00e5e8;
+    transition: .5s;
+    transform:rotateZ(360deg);
+  }

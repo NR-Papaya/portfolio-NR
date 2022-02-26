@@ -176,7 +176,67 @@ section h3{
     }
 
 
-/* footer mods not needed in this build */
+/* footer ---------------------------------*/
+footer{
+    display:block;
+    height:100px;
+    align-self: baseline;
+    background-color: #0b0033;
+    color:#dd0079;
+    font-size: 13pt;
+}
+
+footer div{
+    display:flex;
+    flex-direction: row;
+    height:19px;
+}
+footer p{
+    margin:0;
+    height: 200px;
+}
+footer ul {
+    margin:0;
+}
+footer ul li{
+    margin:5px;
+}
+footer ul a{
+    color:#f0f600;
+
+}
+
+footer ol {
+    margin-top:0px;
+    margin-bottom:30px; 
+}
+
+footer ol li{
+    list-style-type: none;
+    margin:5px;
+}
+.email-color{
+    color:#f0f600;
+    margin:8pt;
+}
+
+.contactfoot{
+    flex-direction: column;
+    align-self: center;
+    margin-left:auto;
+    margin-right:auto;
+    height: 50px;
+    margin-bottom:10px;
+    
+}
+.helpfulfoot{
+    flex-direction:column;
+    align-self: center;
+    margin-right:auto;
+    margin-left:auto;
+    height: 50px;
+    margin-bottom:10px;
+}
 
 /* animate------------------------------------------- */
 
